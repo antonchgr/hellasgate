@@ -1,1 +1,2 @@
-# hellasgate
+# The HellasGate sample database
+
