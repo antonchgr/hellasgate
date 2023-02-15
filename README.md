@@ -42,3 +42,16 @@ ReGenerateData Syntax
                     @maxItemsInOrder int = 5,
                     @calendarstartdate date = null,
                     @calendarnumberofyears int = null`
+
+ReGenerateData Parameters
+| Parameter | Data Type | Default Value | Usage |
+| :--- | :--- | :--- | :---: |
+| @numofCustomers |	int |	5000 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας sales.Customers |
+| @numofSuppliers	| int	| 500	 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας products.Suppliers |
+| @numofEmployees	| int	| 500	 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας hr.Employees |
+| @numofProducts	| int	| 2000 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας products.Products |
+| @numofShippers	| int	| 200	 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας sales.Shippers |
+| @numofOrders	  | int	| 100000 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας sales.OrdersHeader |
+| @maxItemsInOrder | int |	5	 | Ορίζει τον μέγιστο αριθμό των εγγραφών που θα έχει κάθε Order στο πίνακας sales.OrderItems |
+| @calendarstartdate | date |	null | Ορίζει τον ημερομηνία από την οποία θα ξεκινάει ο πίνακας ημερολογίου bi.DimCalendar. Αν δεν περάσουμε τιμη τότε η αρχική ημερομηνία είναι πέντε χρόνια από την τρέχουσα ημερομηνία |
+| @calendarnumberofyears | int | null |	Ορίζει το πόσα χρόνια θα περιέχει ο πίνακας ημερολογίου. Αν δεν περάσουμε τιμή είναι δέκα χρόνια |
