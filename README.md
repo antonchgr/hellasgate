@@ -1,6 +1,7 @@
 # The HellasGate sample database
 
-Overview
+## Overview
+
 Όλα αυτά τα χρόνια που ασχολούμαι με το SQL Server έχω χρησιμοποιήσει πολλές databases που χαρακτηρίζονται σαν sample database τόσο στα μαθήματα που κάνω όσο και στις παρουσιάσεις μου.
 
 Έχοντας ξεκινήσει από την Pubs στις εκδόσεις τους SQL Server 6,6.5,7, την Northwind στις 7, 2000 και μετά τις AdventureWorks, Contoso, WorldWideImporters έκανα ωραιότατα την δουλειά μου.
@@ -11,7 +12,8 @@ Overview
 Να είναι ready for analytics.
 Να αποτελεί την βάση πάνω στην οποία θα μπορώ να προσθέτω και να αφαιρώ τα εκάστοτε features που υπάρχουν ή θα εμφανιστούν στο SQL Server.
 Να μπορώ να τη μεγαλώνω σε χώρο και αριθμό εγγραφών με εύκολο τρόπο.
-Τhe HellasGate database
+
+## Τhe HellasGate database
 Όπως συμβαίνει πάντα σε όλους μας αυτό το project έπαιρνε συνέχεια αναβολή μέχρι που βρήκα το χρόνο για να το υλοποιήσω.
 
 Είμαι στην ευχάριστη θέση να σας παρουσιάσω την HellasGate sample database.
@@ -20,11 +22,11 @@ H database αυτή είναι μια βάση που περιέχει την λ
 
 H database αυτή έχει τρία data files και ένα log file. Το mdf όπως πάντα είναι στο primary filegroup και υπάρχει το secondary filegroup στο οποίο ανήκουν τα επόμενα δύο data files. Το secondary filegroup είναι το default που σημαίνει ότι όλα τα objects δημιουργούνται σε αυτό.
 
-The dfi schema
+### The dfi schema
 Υπάρχουν αρκετά schemas που εύκολα θα δείτε με μια ματιά αλλά υπάρχει και το dfi schema που είναι αυτό περιέχει όλη την δουλειά που έχω κάνει για να καλύψω τις ανάγκες που ανέφερα και παραπάνω. Σε αυτό υπάρχουν tables και stored procedures που δεν είναι ορατά με την πρώτη ματιά καθώς τα έχω κάνω hide from client tools.
 
 Τα tables που υπάρχουν σε αυτό το schema είναι τα Cities, GreekNames, Streets που περιέχουν αυτό που λένε απλά είναι με ελληνικά.
 
 Επίσης υπάρχουν οι stored procedures ClearData, οι GenerateΧΧΧΧ, που κάνουν αυτό που λέει το όνομα τους και η βασική που καλεί όλες τις παραπάνω η ReGenerateData.
 
-ReGenerateData stored procedure
+### ReGenerateData stored procedure
