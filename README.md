@@ -45,7 +45,7 @@ ReGenerateData Syntax
 
 ReGenerateData Parameters
 | Parameter | Data Type | Default Value | Usage |
-| :--- | :--- | :--- | :---: |
+| :--- | :--- | :--- | :--- |
 | @numofCustomers |	int |	5000 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας sales.Customers |
 | @numofSuppliers	| int	| 500	 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας products.Suppliers |
 | @numofEmployees	| int	| 500	 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας hr.Employees |
