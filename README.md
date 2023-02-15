@@ -30,7 +30,8 @@ H database αυτή έχει τρία data files και ένα log file. Το md
 Επίσης υπάρχουν οι stored procedures ClearData, οι GenerateΧΧΧΧ, που κάνουν αυτό που λέει το όνομα τους και η βασική που καλεί όλες τις παραπάνω η ReGenerateData.
 
 ### ReGenerateData stored procedure
-ReGenerateData Syntax
+
+#### ReGenerateData Syntax
 
 `[dfi].[ReGenerateData]
                     @numofCustomers int = 5000,
@@ -43,7 +44,7 @@ ReGenerateData Syntax
                     @calendarstartdate date = null,
                     @calendarnumberofyears int = null`
 
-ReGenerateData Parameters
+#### ReGenerateData Parameters
 | Parameter | Data Type | Default Value | Usage |
 | :--- | :--- | :--- | :--- |
 | @numofCustomers |	int |	5000 | Ορίζει τον αριθμό των εγγραφών που θα έχει ο πίνακας sales.Customers |
