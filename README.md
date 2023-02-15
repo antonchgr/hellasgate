@@ -30,14 +30,15 @@ H database αυτή έχει τρία data files και ένα log file. Το md
 Επίσης υπάρχουν οι stored procedures ClearData, οι GenerateΧΧΧΧ, που κάνουν αυτό που λέει το όνομα τους και η βασική που καλεί όλες τις παραπάνω η ReGenerateData.
 
 ### ReGenerateData stored procedure
+ReGenerateData Syntax
 
-`[dfi].[ReGenerateData] 
-                    @numofCustomers int = 5000,
-                    @numofSuppliers int = 500,
-                    @numofEmployees int = 500,
-                    @numofProducts int = 2000,
-                    @numofShippers int = 200,
-                    @numofOrders int = 100000,
-                    @maxItemsInOrder int = 5,
-                    @calendarstartdate date = null,
-                    @calendarnumberofyears int = null`
+`[dfi].[ReGenerateData]`
+`                    @numofCustomers int = 5000,`
+`                    @numofSuppliers int = 500,`
+`                    @numofEmployees int = 500,`
+`                    @numofProducts int = 2000,`
+`                    @numofShippers int = 200,`
+`                    @numofOrders int = 100000,`
+`                    @maxItemsInOrder int = 5,`
+`                    @calendarstartdate date = null,`
+`                    @calendarnumberofyears int = null`
