@@ -1,4 +1,4 @@
-ns
+
 # The HellasGate sample database - V2
 
 ## Overview
