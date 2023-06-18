@@ -15,8 +15,8 @@
 2. HellasGateV2-Code.sql
 3. HellasGateV2-SPCode.sql
 4. HellasGateV2-Cities.sql
-4. HellasGateV2-Streets.sql
-5. HellasGateV2-Names.sql
+5. HellasGateV2-Streets.sql
+6. HellasGateV2-Names.sql
 
 Για την εισαγωγή των δεδομών θα πρέπει να εκτελεστεί η ReGenerateData stored procedure.
 
