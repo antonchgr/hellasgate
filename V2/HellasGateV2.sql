@@ -5,7 +5,7 @@ DECLARE @mdf NVARCHAR(1024)
 ,		@ndf1 NVARCHAR(1024)
 ,		@ndf2 NVARCHAR(1024)
 ,		@ldf NVARCHAR(1024)
-,		@createddl NVARCHAR(1024);
+,		@createddl NVARCHAR(max);
 
 SELECT	@mdf  = CONCAT(CAST(SERVERPROPERTY('InstanceDefaultDataPath') AS NVARCHAR(512)),N'HellasGateV2_sdata.mdf')
 ,		@ndf1 = CONCAT(CAST(SERVERPROPERTY('InstanceDefaultDataPath') AS NVARCHAR(512)),N'HellasGateV2_data1.ndf')
