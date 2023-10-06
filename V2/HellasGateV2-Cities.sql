@@ -1,6 +1,9 @@
 ﻿USE [HellasGateV2]
 GO
 
+SET IDENITY_INSERT dfi.Cities ON;
+GO
+  
 INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (1,N'Αγία Βαρβάρα Ηρακλείου',N'Κρήτης',N'Κρήτη',N'12100');
 INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (2,N'Αγιά Λάρισας',N'Θεσσαλίας',N'Θεσσαλία',N'92000');
 INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (3,N'Αγία Μαρίνα Κορωπίου',N'Αττικής',N'Στερεά Ελλάδα',N'13000');
@@ -447,3 +450,6 @@ INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (443,N'Χωρ
 INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (444,N'Ψαχνά',N'Στερεάς Ελλάδας',N'Στερεά Ελλάδα',N'24440');
 INSERT INTO dfi.Cities (aa,City,Perfecture,Region,PostCode) VALUES (445,N'Ωραιόκαστρο',N'Κεντρικής Μακεδονίας',N'Μακεδονία',N'11445');
 go
+
+SET IDENITY_INSERT dfi.Cities OFF;
+GO
